@@ -17,6 +17,6 @@ export default function ContactList({ contacts, contactDelete }) {
     );
 }
 ContactList.propTypes={
-    contacts: PropTypes.string,
+    contacts: PropTypes.array,
     contactDelete: PropTypes.func,
 }
